@@ -1,0 +1,36 @@
+{
+  "name": "capcodex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cds-serve",
+    "watch": "cds watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mporta99/CAPCODEX.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mporta99/CAPCODEX/issues"
+  },
+  "homepage": "https://github.com/mporta99/CAPCODEX#readme",
+  "dependencies": {
+    "@cap-js/sqlite": "^2.2.0",
+    "@sap/cds": "^9.8.4"
+  },
+  "devDependencies": {
+    "@sap/cds-dk": "^9.8.2"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sqlite"
+      }
+    }
+  }
+}
